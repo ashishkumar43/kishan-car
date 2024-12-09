@@ -1,0 +1,61 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+_pycache_/
+
+# Environment and IDE settings
+.env
+.venv
+env/
+venv/
+ENV/
+.ipynb_checkpoints
+.idea/
+.vscode/
+*.code-workspace
+
+# Distribution/build directories
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# Logs and local data
+*.log
+*.sqlite3
+*.db
+.DS_Store
+*.pid
+
+# Testing output
+coverage/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+
+# Secrets
+*.key
+*.pem
+
+# AWS, GCP, Azure credentials
+*.json
+*.yml
+*.yaml
+
+# Python packaging
+*.egg
+.eggs/
+MANIFEST
+
+# Custom directories (optional)
+uploads/    
+data/
+tmp/
