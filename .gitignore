@@ -45,7 +45,7 @@ pytest_cache/
 *.key
 *.pem
 
-# AWS, GCP, Azure credentials
+# AWS, GCP, Azure credentials   
 *.json
 *.yml
 *.yaml
@@ -58,4 +58,4 @@ MANIFEST
 # Custom directories (optional)
 uploads/    
 data/
-tmp/
+tmp/ 
