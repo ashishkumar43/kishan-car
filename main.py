@@ -19,7 +19,8 @@ if not os.system("pip show gTTS"):
     
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-model = YOLO(r'D:\Minor Project\app_sound\best_license_plate_model_updated.pt')
+# model = YOLO(r'D:\Minor Project\app_sound\best_license_plate_model_updated.pt')
+model = YOLO('./best_license_plate_model_updated.pt')  
 
 def apply_custom_css():
     st.markdown("""
